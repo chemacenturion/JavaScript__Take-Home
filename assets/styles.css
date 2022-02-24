@@ -32,10 +32,10 @@ body {
     font-size: x-large;
 }
 
-.container button:hover {
+/* .container button:hover {
     background-color: aqua;
     border: 2px skyblue solid;
-}
+} */
 
 .container h3 {
     margin-bottom: 1rem;
