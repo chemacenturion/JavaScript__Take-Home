@@ -58,9 +58,10 @@ body {
   width: 500px;
 }
 
-.container__modal-result h4 {
+.container__modal-result h3 {
   padding-top: 3rem;
   padding-left: 2rem;
+  font-size: x-large;
 }
 
 .container__modal-result p {

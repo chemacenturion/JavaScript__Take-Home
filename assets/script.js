@@ -41,10 +41,10 @@ function generateNumbers() {
 
   function updateMessage() {
     if (randResult > 1000) {
-      message = "You've lost!";
+      message = "Too bad! You've lost!";
       //alert("You've lost!")
     } else {
-      message = "You've won!";
+      message = "Congratulations! You've won!";
     }
     successMessageRef.innerHTML = message;
     resultModal.style.display = "block";
