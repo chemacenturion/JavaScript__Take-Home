@@ -22,7 +22,7 @@ This is the second exercise portion (JavaScript) I have been tasked with for an 
 * [Questions](#Questions)
 
 ## Usage
-This is the first portion (CSS) of a three portion take home technical interview.
+This is the second portion (JavaScript) of a three portion take home technical interview.
 
 ## License
 MIT Copyright: Jose Centurion 2022
