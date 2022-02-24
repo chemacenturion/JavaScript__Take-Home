@@ -32,10 +32,10 @@ body {
     font-size: x-large;
 }
 
-/* .container button:hover {
+.container button:hover {
     background-color: aqua;
     border: 2px skyblue solid;
-} */
+}
 
 .container h3 {
     margin-bottom: 1rem;
@@ -44,4 +44,78 @@ body {
 .container p {
     font-weight: bolder;
     font-size: medium;
+}
+
+.container__modal-lose {
+    position: fixed;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0);
+    transition: 200ms ease-in-out;
+    border: 2px solid skyblue;
+    z-index: 10;
+    background-color: whitesmoke;
+    width: 500px;
+
+}
+
+.container__modal-lose.active {
+    transform: translate(-50%, -50%) scale(1);
+}
+
+.container__modal-lose h4 {
+    padding-top: 3rem;
+    padding-left: 2rem;
+}
+
+.container__modal-lose p {
+    padding-top: 1rem;
+    padding-left: 2rem;
+    padding-bottom: 5rem;
+}
+
+.close-button {
+    cursor: pointer;
+    border: none;
+    outline: none;
+    background: none;
+    font-size: 2rem;
+    color: lightgray;
+    position: absolute;
+    top: 5%;
+    right: 2%;
+}
+
+.close-button:hover {
+    color: red;
+}
+
+.refresh {
+    cursor: pointer;
+    border: darkgray 2px solid;
+    background-color: darkgray;
+    padding: 0.25rem 5rem;
+    position: absolute;
+    bottom: 5%;
+    right: 2%;
+}
+
+.refresh:hover {
+    border: 2px rgb(83, 83, 83) solid;
+}
+
+#overlay {
+    position: fixed;
+    opacity: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: whitesmoke;
+    pointer-events: none;
+}
+
+#overlay.active {
+    opacity: 1;
+    pointer-events: all;
 }
