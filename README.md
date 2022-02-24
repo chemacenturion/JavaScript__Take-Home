@@ -14,7 +14,7 @@ Click [HERE](https://chemacenturion.github.io/JavaScript__Take-Home/) for deploy
 
 ## Description
 
-This is the second exercise portion (JavaScript) I have been tasked with for an entry level development position I'm currently interviewing for. This exercise tests my knowledge of JavaScript.
+This is the second exercise portion I have been tasked with for an entry level development position I'm currently interviewing for. This exercise tests my knowledge of JavaScript.
 
 ## Table of Contents:
 
