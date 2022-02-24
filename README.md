@@ -2,15 +2,15 @@
 
 ## Deployed-Link
 
-<!-- Click [HERE](https://chemacenturion.github.io/CSS__Take-Home/) for deployed site! -->
+Click [HERE](https://chemacenturion.github.io/JavaScript__Take-Home/) for deployed site!
 
 ## Assigned-Model
 
-<!-- ![Assigned-Model-GIF](https://github.com/chemacenturion/CSS__Take-Home/blob/main/assets/images/exersice-one.gif%20-%20Google%20Drive.gif?raw=true) -->
+![Assigned-Model-GIF](https://github.com/chemacenturion/JavaScript__Take-Home/blob/main/assets/images/exersice-two.gif%20-%20Google%20Drive.gif?raw=true)
 
 ## Mock-Up
 
-<!-- ![Mock-Up-GIF](https://github.com/chemacenturion/CSS__Take-Home/blob/main/assets/images/CSS__Take-Home.gif?raw=true) -->
+![Mock-Up-GIF](https://github.com/chemacenturion/JavaScript__Take-Home/blob/main/assets/images/JavaScript__Take-Home.gif?raw=true)
 
 ## Description
 
