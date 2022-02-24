@@ -3,6 +3,7 @@ const refreshBtn = document.querySelector("#okay");
 const successMessageRef = document.querySelector("#successMessage");
 const resultModal = document.querySelector("#result");
 const okBtn = document.querySelector("#okay");
+const closeBtn = document.querySelector("#close");
 const overlay = document.querySelector("#overlay");
 
 
@@ -14,7 +15,7 @@ overlay.style.display="none"
 
 // create function called generateNumbers
 function generateNumbers() {
-    let randNum = document.getElementById('randNum');
+    let randNum = document.getElementById("randNum");
     // Number between 1 and 100,000
     // The animation of having the numbers spin was very hard to solve and my intitial inclination was setInterval, but I found this link eventually
     // https://stackoverflow.com/questions/3583724/how-do-i-add-a-delay-in-a-javascript-loop
@@ -59,6 +60,12 @@ okBtn.addEventListener("click",() => {
     resultModal.style.display="none";
     overlay.style.display="none";
 })
+
+closeBtn.addEventListener("click",() => {
+    resultModal.style.display="none";
+    overlay.style.display="none";
+})
+
 // Add event listener to generate lottery numbers
 playBtn.addEventListener("click", (generateNumbers));
 
