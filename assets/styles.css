@@ -48,7 +48,7 @@ body {
 
 .container__modal-result {
   position: fixed;
-  top: 55%;
+  top: 55.5%;
   left: 50%;
   transform: translate(-50%, -50%) scale(1);
   transition: 200ms ease-in-out;
