@@ -1,34 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>JavaScript__Take-Home</title>
-    <link rel="stylesheet" href="./assets/styles.css">
-</head>
-<body>
+    <link rel="stylesheet" href="./assets/styles.css" />
+  </head>
+  <body>
     <div class="container">
-        <h1>The JavaScript Lottery</h1>
-        <br/>
-        <h2>Click the button to draw a number.</h2>
-        <br/>
-        <button id="generate" class="btn">Let's Play!</button>
-        <br/>
-        <h3>Your Number:
-            <span id="randNum">0</span>
-        </h3>
-        <br/>
-        <p>* Any number in the 1 to 1000 range wins!</p>
+      <h1>The JavaScript Lottery</h1>
+      <br />
+      <h2>Click the button to draw a number.</h2>
+      <br />
+      <button id="generate" class="btn">Let's Play!</button>
+      <br />
+      <h3>
+        Your Number:
+        <span id="randNum">0</span>
+      </h3>
+      <br />
+      <p>* Any number in the 1 to 1000 range wins!</p>
     </div>
     <div class="container__modal-result" id="result">
-        <h4>The site says...</h4>
-        <p id="successMessage">Too bad! You've Lost!</p>
-        <button class="close-button" id="close">&times;</button>
-        <button class="refresh" id="okay">OK</button>
+      <h4>The site says...</h4>
+      <p id="successMessage">Too bad! You've Lost!</p>
+      <button class="close-button" id="close">&times;</button>
+      <button class="refresh" id="okay">OK</button>
     </div>
     <div id="overlay"></div>
 
     <script src="./assets/script.js"></script>
-</body>
+  </body>
 </html>
